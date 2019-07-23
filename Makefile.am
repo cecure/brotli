@@ -3,7 +3,7 @@ AUTOMAKE_OPTIONS = foreign nostdinc subdir-objects
 ACLOCAL_AMFLAGS = -I m4
 
 # Actual ABI version is substituted by bootstrap
-LIBBROTLI_VERSION_INFO = -version-info 0:0:0
+LIBBROTLI_VERSION_INFO = -version-info 1:7:0
 
 bin_PROGRAMS = brotli
 lib_LTLIBRARIES = libbrotlicommon.la libbrotlidec.la libbrotlienc.la
